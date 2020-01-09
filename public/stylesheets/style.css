@@ -1,0 +1,250 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("/fonts/Montserrat.ttf");
+}
+@font-face {
+  font-family: Raleway;
+  src: url("/fonts/Raleway.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.widthRestriction {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+}
+nav {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  clear: both;
+  text-align: right;
+  position: fixed;
+  background-color: #f9f9f9;
+  z-index: 10000;
+}
+.logo {
+  float: left;
+  display: block;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+.topnavLinksContainer {
+  overflow: auto;
+  white-space: nowrap;
+}
+.topnavLinks {
+  color: #404040;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  font-family: Raleway;
+  font-size: 1.1rem;
+  transition: 0.2s;
+}
+.topnavLinks:hover {
+  background-image: -webkit-linear-gradient(100deg, #ffec85 0%, #ffa83e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ffc43d;
+}
+.fa-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-whatsapp {
+  background: radial-gradient(circle at 30% 107%, #25d366 0%, #25d366 5%, #25d366 45%, #25d366 60%, #25d366 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-whatsapp:hover {
+  background: radial-gradient(circle at 30% 107%, #25d366 0%, #25d366 5%, #25d366 45%, #25d366 60%, #25d366 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bodyMerge {
+  width: 100%;
+  background: linear-gradient(180deg, #f9f9f9 0%, rgba(249,249,249,0) 100%);
+  height: 20px;
+  position: fixed;
+}
+.bannerSection {
+  height: 95%;
+  background: url("/images/bannerCarousel/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+.parallax {
+  background-color: #fff;
+  z-index: 2;
+}
+.row {
+  width: 100%;
+  display: inline-flex;
+}
+.column-2 {
+  width: 50%;
+  display: block;
+}
+.introImage {
+  width: 95%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 7px 7px 21px -10px rgba(153,153,153,0.89);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h1 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+h2 {
+  font-size: calc(1.285rem + 0.42vw);
+  colour: #404040;
+}
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+p {
+  font-size: 1.1rem;
+  margin: 0;
+  font-family: Raleway;
+  line-height: 27px;
+}
+hr {
+  height: 8px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border: none;
+  width: 80%;
+}
+.hrGold {
+  background: -webkit-linear-gradient(100deg, #ffec85 0%, #ffa83e 100%);
+}
+.hrPink {
+  background: -webkit-linear-gradient(200deg, #e655c6 0%, #ebb9e0 100%);
+}
+@media screen and (max-width: 800px) {
+  .column-2 {
+    width: 100%;
+  }
+  .row {
+    display: inline-block;
+  }
+}
+.fusia {
+  color: #ed42c8;
+}
+.uspCardsContainer {
+  width: 100%;
+}
+.uspCard {
+  width: 25%;
+  display: inline-block;
+}
+.uspCardMain {
+  width: 95%;
+  display: inline-block;
+  box-shadow: 7px 7px 21px -10px rgba(153,153,153,0.89);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: 0.2s;
+}
+.uspCardMain:hover {
+  box-shadow: 7px 7px 35px -10px rgba(153,153,153,0.89);
+}
+.uspCardRestriction {
+  width: 90%;
+}
+.uspImage {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.uspCardContent {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+.uspHead {
+  font-size: 1.2rem;
+}
+.uspContent {
+  font-size: 0.8rem;
+  line-height: 19px;
+}
+@media screen and (max-width: 700px) {
+  .uspCard {
+    width: 50%;
+  }
+}
+#Gmap {
+  width: 95%;
+  height: 300px;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 7px 7px 21px -10px rgba(153,153,153,0.89);
+}
+.reachUsLinks a {
+  color: #404040;
+  font-weight: bold;
+  padding-bottom: 7px;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 1.1rem;
+  transition: 0.2s;
+  padding-bottom: 20px;
+  margin-right: 20px;
+  display: inline-block;
+}
+.reachUsLinks a:hover {
+  background-image: -webkit-linear-gradient(100deg, #ffec85 0%, #ffa83e 100%);
+  -webkit-background-clip: text;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ffc43d;
+}
+.bodyLinks {
+  color: #404040;
+  font-weight: bold;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 1.1rem;
+  transition: 0.2s;
+  margin-right: 20px;
+  display: inline-block;
+}
+.bodyLinks:hover {
+  background-image: -webkit-linear-gradient(100deg, #ffec85 0%, #ffa83e 100%);
+  -webkit-background-clip: text;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #ffc43d;
+}
+.instagramSection {
+  background: url("/images/parallax.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
